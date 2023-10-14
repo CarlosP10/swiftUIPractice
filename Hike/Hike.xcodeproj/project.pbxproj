@@ -15,6 +15,7 @@
 		7A5552E72ADA11EB00E24DB8 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5552E62ADA11EB00E24DB8 /* CustomBackgroundView.swift */; };
 		7A5552EA2ADA167F00E24DB8 /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5552E92ADA167F00E24DB8 /* K.swift */; };
 		7A5552EC2ADA184500E24DB8 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5552EB2ADA184500E24DB8 /* ColorExtension.swift */; };
+		7A5552EE2ADA233D00E24DB8 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5552ED2ADA233D00E24DB8 /* CustomButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		7A5552E62ADA11EB00E24DB8 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		7A5552E92ADA167F00E24DB8 /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
 		7A5552EB2ADA184500E24DB8 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		7A5552ED2ADA233D00E24DB8 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			children = (
 				7A5552E32ADA103600E24DB8 /* CardView.swift */,
 				7A5552E62ADA11EB00E24DB8 /* CustomBackgroundView.swift */,
+				7A5552ED2ADA233D00E24DB8 /* CustomButtonView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A5552EE2ADA233D00E24DB8 /* CustomButtonView.swift in Sources */,
 				7A5552D82AD8E36E00E24DB8 /* ContentView.swift in Sources */,
 				7A5552EA2ADA167F00E24DB8 /* K.swift in Sources */,
 				7A5552E42ADA103600E24DB8 /* CardView.swift in Sources */,
