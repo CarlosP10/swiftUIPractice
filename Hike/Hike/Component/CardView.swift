@@ -8,6 +8,30 @@
 import SwiftUI
 
 struct CardView: View {
+    //MARK: - PROPERTIES
+    
+    @State private var imageNumber: Int = 1
+    @State private var randomNumber: Int = 1
+    
+    //MARK: - FUNCTIONS
+    
+    func randomImage() {
+        print("--- BUTTON WAS PRESSED ---")
+        print("Status: Old Image Number = \(imageNumber)")
+        
+        repeat {
+            randomNumber = Int.random(in: 1...5)
+            print("Action: Random Number Generated = \(randomNumber)")
+        } while randomNumber == imageNumber
+        
+        imageNumber = randomNumber
+        
+        print("Result: New Image Number = \(imageNumber)")
+        print("--- THE END ---")
+        print("\n")
+    }
+    
+    
     var body: some View {
         //MARK: - CARD
         ZStack {
@@ -64,15 +88,17 @@ struct CardView: View {
                         )
                         .frame(width: 256, height: 256)
                     //with frame we set the circle size smaller
-                    Image("image-1")
+                    Image("image-\(imageNumber)")
                         .resizable()
                         .scaledToFit()
+                        .animation(.default, value: imageNumber)
                 }
                 
                 //MARK: - FOOTER
                 Button {
                     // ACTION: Generate a random number
                     print("The button was pressed.")
+                    randomImage()
                 } label: {
                     Text("Explore More")
                         .font(.title2)
