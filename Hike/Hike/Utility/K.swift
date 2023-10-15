@@ -5,7 +5,7 @@
 //  Created by Carlos Paredes on 13/10/23.
 //
 import Foundation
-
+import SwiftUI
 
 struct K {
     struct Colors {
@@ -24,6 +24,12 @@ struct K {
         static let image3 = "image-3"
         static let image4 = "image-4"
         static let image5 = "image-5"
+    }
+    
+    struct Gradients {
+        static let greenGradientLight = LinearGradient(colors: [.customGreenLight, .customGreenMedium], startPoint: .top, endPoint: .bottom)
+        static let grayGradientLight = LinearGradient(colors: [.customGrayLight, .customGrayMedium], startPoint: .top, endPoint: .bottom)
+        static let grayGradientMedium = LinearGradient(colors: [.customGrayMedium, .customGrayLight], startPoint: .top, endPoint: .bottom)
     }
         
 }

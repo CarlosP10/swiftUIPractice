@@ -29,7 +29,7 @@ struct CardView: View {
                                     startPoint: .top,
                                     endPoint: .bottom
                                 )
-                        )
+                            )
                         
                         Spacer()
                         
@@ -63,14 +63,27 @@ struct CardView: View {
                             )
                         )
                         .frame(width: 256, height: 256)
-                        //with frame we set the circle size smaller
+                    //with frame we set the circle size smaller
                     Image("image-1")
                         .resizable()
-                    .scaledToFit()
+                        .scaledToFit()
                 }
                 
                 //MARK: - FOOTER
-            }
+                Button {
+                    // ACTION: Generate a random number
+                    print("The button was pressed.")
+                } label: {
+                    Text("Explore More")
+                        .font(.title2)
+                        .fontWeight(.heavy)
+                        .foregroundStyle(
+                            K.Gradients.greenGradientLight
+                        )
+                        .shadow(color: .black.opacity(0.25), radius: 0.25, x: 1, y: 2)
+                }
+                .buttonStyle(GradientButton())
+            } //: ZSTACK
         }// :CARD
         .frame(width: 320, height: 570)
     }
