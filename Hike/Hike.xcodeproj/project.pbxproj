@@ -17,6 +17,9 @@
 		7A5552EC2ADA184500E24DB8 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5552EB2ADA184500E24DB8 /* ColorExtension.swift */; };
 		7A5552EE2ADA233D00E24DB8 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5552ED2ADA233D00E24DB8 /* CustomButtonView.swift */; };
 		7A5552F22ADC5BA000E24DB8 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5552F12ADC5BA000E24DB8 /* GradientButton.swift */; };
+		7AAE85272ADE010B00C0D6FC /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAE85262ADE010B00C0D6FC /* CustomCircleView.swift */; };
+		7AAE85292ADE029200C0D6FC /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAE85282ADE029200C0D6FC /* MotionAnimationView.swift */; };
+		7AAE852C2ADF360000C0D6FC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAE852B2ADF360000C0D6FC /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,9 @@
 		7A5552EB2ADA184500E24DB8 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		7A5552ED2ADA233D00E24DB8 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 		7A5552F12ADC5BA000E24DB8 /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		7AAE85262ADE010B00C0D6FC /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
+		7AAE85282ADE029200C0D6FC /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
+		7AAE852B2ADF360000C0D6FC /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +71,7 @@
 			children = (
 				7A5552E82ADA167100E24DB8 /* Utility */,
 				7A5552D52AD8E36E00E24DB8 /* HikeApp.swift */,
-				7A5552D72AD8E36E00E24DB8 /* ContentView.swift */,
+				7AAE852A2ADF35ED00C0D6FC /* Screen */,
 				7A5552D92AD8E37300E24DB8 /* Assets.xcassets */,
 				7A5552DB2AD8E37300E24DB8 /* Preview Content */,
 				7A5552E52ADA11B100E24DB8 /* Component */,
@@ -87,6 +93,8 @@
 				7A5552E32ADA103600E24DB8 /* CardView.swift */,
 				7A5552E62ADA11EB00E24DB8 /* CustomBackgroundView.swift */,
 				7A5552ED2ADA233D00E24DB8 /* CustomButtonView.swift */,
+				7AAE85262ADE010B00C0D6FC /* CustomCircleView.swift */,
+				7AAE85282ADE029200C0D6FC /* MotionAnimationView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -99,6 +107,15 @@
 				7A5552F12ADC5BA000E24DB8 /* GradientButton.swift */,
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		7AAE852A2ADF35ED00C0D6FC /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				7A5552D72AD8E36E00E24DB8 /* ContentView.swift */,
+				7AAE852B2ADF360000C0D6FC /* SettingsView.swift */,
+			);
+			path = Screen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,12 +190,15 @@
 			files = (
 				7A5552EE2ADA233D00E24DB8 /* CustomButtonView.swift in Sources */,
 				7A5552F22ADC5BA000E24DB8 /* GradientButton.swift in Sources */,
+				7AAE85272ADE010B00C0D6FC /* CustomCircleView.swift in Sources */,
 				7A5552D82AD8E36E00E24DB8 /* ContentView.swift in Sources */,
 				7A5552EA2ADA167F00E24DB8 /* K.swift in Sources */,
 				7A5552E42ADA103600E24DB8 /* CardView.swift in Sources */,
 				7A5552EC2ADA184500E24DB8 /* ColorExtension.swift in Sources */,
 				7A5552D62AD8E36E00E24DB8 /* HikeApp.swift in Sources */,
 				7A5552E72ADA11EB00E24DB8 /* CustomBackgroundView.swift in Sources */,
+				7AAE85292ADE029200C0D6FC /* MotionAnimationView.swift in Sources */,
+				7AAE852C2ADF360000C0D6FC /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
