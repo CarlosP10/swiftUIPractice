@@ -26,6 +26,24 @@ struct K {
     static let image5 = "image-5"
   }
   
+  struct Icons {
+    static let appIconBackpack = "AppIcon-Backpack"
+    static let appIconCamera = "AppIcon-Camera"
+    static let appIconCampfire = "AppIcon-Campfire"
+    static let appIconMagnifyingGlass = "AppIcon-MagnifyingGlass"
+    static let appIconMap = "AppIcon-Map"
+    static let appIconMushroom = "AppIcon-Mushroom"
+  }
+  
+  struct IconsPreviews {
+    static let appIconBackpackPreview = "AppIcon-Backpack-Preview"
+    static let appIconCameraPreview = "AppIcon-Camera-Preview"
+    static let appIconCampfirePreview = "AppIcon-Campfire-Preview"
+    static let appIconMagnifyingGlassPreview = "AppIcon-MagnifyingGlass-Preview"
+    static let appIconMapPreview = "AppIcon-Map-Preview"
+    static let appIconMushroomPreview = "AppIcon-Mushroom-Preview"
+  }
+  
   struct Gradients {
     static let greenGradientLight = LinearGradient(colors: [.customGreenLight, .customGreenMedium], startPoint: .top, endPoint: .bottom)
     static let greensGradientLMD = LinearGradient(colors: [.customGreenLight, .customGreenMedium, .customGreenDark], startPoint: .top, endPoint: .bottom)
