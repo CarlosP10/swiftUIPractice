@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
   /// AppStorage uses the userDefault call it store on the device's permanent storage
-  @AppStorage("onboarding") var isOnBoardingViewActive: Bool = true
+  @AppStorage(K.Storage.onBoarding) var isOnBoardingViewActive: Bool = true
   
     var body: some View {
       ZStack {

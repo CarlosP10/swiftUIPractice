@@ -9,7 +9,7 @@ import SwiftUI
 
 struct HomeView: View {
   //MARK: - PROPERTIES
-  @AppStorage("onboarding") var isOnBoardingViewActive: Bool = true
+  @AppStorage(K.Storage.onBoarding) var isOnBoardingViewActive: Bool = true
   
   //MARK: - BODY
     var body: some View {
