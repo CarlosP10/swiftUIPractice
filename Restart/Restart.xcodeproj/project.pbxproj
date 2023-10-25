@@ -11,6 +11,7 @@
 		7A46D5C12AE46064001AA552 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A46D5C02AE46064001AA552 /* HomeView.swift */; };
 		7A46D5C32AE47F22001AA552 /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A46D5C22AE47F22001AA552 /* K.swift */; };
 		7A46D5C52AE4892C001AA552 /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A46D5C42AE4892C001AA552 /* CircleGroupView.swift */; };
+		7A5150E22AE8A2470063D1AE /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5150E12AE8A2470063D1AE /* AudioPlayer.swift */; };
 		7AC6484A2AE1F0B60072D4E0 /* RestartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC648492AE1F0B60072D4E0 /* RestartApp.swift */; };
 		7AC6484C2AE1F0B60072D4E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC6484B2AE1F0B60072D4E0 /* ContentView.swift */; };
 		7AC6484E2AE1F0B90072D4E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AC6484D2AE1F0B90072D4E0 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 		7A46D5C02AE46064001AA552 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		7A46D5C22AE47F22001AA552 /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
 		7A46D5C42AE4892C001AA552 /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
+		7A5150E12AE8A2470063D1AE /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 		7AC648462AE1F0B60072D4E0 /* Restart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AC648492AE1F0B60072D4E0 /* RestartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestartApp.swift; sourceTree = "<group>"; };
 		7AC6484B2AE1F0B60072D4E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				7A46D5C22AE47F22001AA552 /* K.swift */,
+				7A5150E12AE8A2470063D1AE /* AudioPlayer.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				7AC6484C2AE1F0B60072D4E0 /* ContentView.swift in Sources */,
 				7A46D5C52AE4892C001AA552 /* CircleGroupView.swift in Sources */,
 				7AC6484A2AE1F0B60072D4E0 /* RestartApp.swift in Sources */,
+				7A5150E22AE8A2470063D1AE /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
