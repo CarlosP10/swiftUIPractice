@@ -37,12 +37,12 @@ struct InfoPanelView: View {
                 Spacer()
                 
                 Image(systemName: "arrow.left.and.right")
-                Text("\(scale)")
+                Text("\(offset.width)")
                 
                 Spacer()
                 
                 Image(systemName: "arrow.up.and.down")
-                Text("\(scale)")
+                Text("\(offset.height)")
                 
                 Spacer()
             }
