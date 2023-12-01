@@ -11,6 +11,7 @@
 		7AEEFBC42B1965B9003BAF9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEEFBC32B1965B9003BAF9F /* ContentView.swift */; };
 		7AEEFBC62B1965BB003BAF9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AEEFBC52B1965BB003BAF9F /* Assets.xcassets */; };
 		7AEEFBC92B1965BB003BAF9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AEEFBC82B1965BB003BAF9F /* Preview Assets.xcassets */; };
+		7AEEFBD32B1A3DD8003BAF9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AEEFBD22B1A3DD8003BAF9F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		7AEEFBC52B1965BB003BAF9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AEEFBC82B1965BB003BAF9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7AEEFBCF2B1A3A4A003BAF9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7AEEFBD22B1A3DD8003BAF9F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		7AEEFBC02B1965B9003BAF9F /* Avocados */ = {
 			isa = PBXGroup;
 			children = (
+				7AEEFBD22B1A3DD8003BAF9F /* LaunchScreen.storyboard */,
 				7AEEFBCF2B1A3A4A003BAF9F /* Info.plist */,
 				7AEEFBC12B1965B9003BAF9F /* AvocadosApp.swift */,
 				7AEEFBC32B1965B9003BAF9F /* ContentView.swift */,
@@ -127,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AEEFBD32B1A3DD8003BAF9F /* LaunchScreen.storyboard in Resources */,
 				7AEEFBC92B1965BB003BAF9F /* Preview Assets.xcassets in Resources */,
 				7AEEFBC62B1965BB003BAF9F /* Assets.xcassets in Resources */,
 			);
@@ -273,8 +277,10 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Avocados/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,8 +307,10 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Avocados/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
