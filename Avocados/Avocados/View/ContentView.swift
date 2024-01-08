@@ -10,6 +10,9 @@ import SwiftUI
 struct ContentView: View {
     //MARK: - PROPERTIES
     var headers: [Header] = headersData
+    var facts: [Fact] = factsData
+    var recipes: [Recipe] = recipesData
+    
     var body: some View {
         ScrollView(.vertical, showsIndicators: false) {
             VStack(alignment: .center, spacing: 20) {
@@ -22,8 +25,41 @@ struct ContentView: View {
                     }
                 }
                 //MARK: - DISHES
+                Text("Avocado Dishes")
+                    .fontWeight(.bold)
+                    .modifier(TitleModifier())
+                
                 DishesView()
                     .frame(maxWidth: 640)
+                
+                //MARK: - AVOCADOS FACTS
+                Text("Avocado Facts")
+                    .fontWeight(.bold)
+                    .modifier(TitleModifier())
+                
+                ScrollView(.horizontal, showsIndicators: false) {
+                    HStack(alignment: .top, spacing: 60) {
+                        ForEach(facts) { fact in
+                            FactsView(fact: fact)
+                        }
+                    }
+                    .padding(.vertical)
+                    .padding(.leading, 60)
+                    .padding(.trailing, 20)
+                }
+                
+                //MARK: - RECIPE CARDS
+                Text("Avocado Recipes")
+                    .fontWeight(.bold)
+                    .modifier(TitleModifier())
+                
+                VStack(alignment: .center, spacing: 20) {
+                    ForEach(recipes) { recipe in
+                        RecipeCardView(recipe: recipe)
+                    }
+                }
+                .frame(maxWidth: 640)
+                .padding(.horizontal)
                 
                 //MARK: - FOOTER
                 VStack(alignment: .center, spacing: 20) {
@@ -56,6 +92,6 @@ struct TitleModifier: ViewModifier {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(headers: headersData)
+        ContentView(headers: headersData, facts: factsData, recipes: recipesData)
     }
 }
