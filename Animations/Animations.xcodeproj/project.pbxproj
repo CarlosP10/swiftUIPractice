@@ -15,6 +15,7 @@
 		7A59E7322C9500D000981A23 /* TransitionViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A59E7312C9500D000981A23 /* TransitionViews.swift */; };
 		7A59E7342C95058B00981A23 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 7A59E7332C95058B00981A23 /* README.md */; };
 		7A59E7372C95074E00981A23 /* JumpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A59E7362C95074E00981A23 /* JumpButton.swift */; };
+		7A59E73A2C950B4000981A23 /* TextChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A59E7392C950B4000981A23 /* TextChanges.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		7A59E7312C9500D000981A23 /* TransitionViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionViews.swift; sourceTree = "<group>"; };
 		7A59E7332C95058B00981A23 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7A59E7362C95074E00981A23 /* JumpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpButton.swift; sourceTree = "<group>"; };
+		7A59E7392C950B4000981A23 /* TextChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextChanges.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		7A59E71D2C94F91900981A23 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				7A59E7382C950B2900981A23 /* TextChanges */,
 				7A59E7352C95074200981A23 /* JumpButton */,
 				7A59E7302C9500BB00981A23 /* TransitionViews */,
 				7A59E72E2C94FC3300981A23 /* WrongPasswordTextFieldAnimation */,
@@ -101,6 +104,14 @@
 				7A59E7362C95074E00981A23 /* JumpButton.swift */,
 			);
 			path = JumpButton;
+			sourceTree = "<group>";
+		};
+		7A59E7382C950B2900981A23 /* TextChanges */ = {
+			isa = PBXGroup;
+			children = (
+				7A59E7392C950B4000981A23 /* TextChanges.swift */,
+			);
+			path = TextChanges;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A59E73A2C950B4000981A23 /* TextChanges.swift in Sources */,
 				7A59E7342C95058B00981A23 /* README.md in Sources */,
 				7A59E72D2C94F95300981A23 /* WrongPasswordTextFieldAnimation.swift in Sources */,
 				7A59E7322C9500D000981A23 /* TransitionViews.swift in Sources */,

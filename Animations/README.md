@@ -14,3 +14,9 @@
 ### JumpButton
 
 ![Previsualización](/Animations/Animations/JumpButton/JumpButton.gif)
+
+### TextChanges
+
+| Before    | After    |
+| :-------- | :------- |
+| ![Previsualización](/Animations/Animations/TextChanges/TextChangesBefore.gif) | ![Previsualización](/Animations/Animations/TextChanges/TextChangesAfter.gif) |
